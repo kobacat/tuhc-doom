@@ -9,7 +9,7 @@ const css_wh = `
 
 module.exports = {
     title: "DOOM",
-    summary: "Play DOOM, Heretic and Hexen in the Unofficial Homestuck Collection.",
+    summary: "Play DOOM , Heretic and Hexen in the Unofficial Homestuck Collection.",
     author: "koba (<a href='https://kobacat.com/'>kobacat.com</a>)",
 
     description: `<p>This mod adds a playable DOOM, Heretic and Hexen to the Unofficial Homestuck Collection, launchable from the home screen.</p>
@@ -40,8 +40,8 @@ module.exports = {
 	
 	edit(archive) {
             archive.tweaks.modHomeRowItems.push({
-                href: "/page/c=[S] DOOM/m=assets%3A%2F%2Fmods%2Fflashgames%2Fswf%2Fdoomtriplepack.swf/b=|CONTROLS|<br><br>FORWARD - W<br>BACKWARD - S<br>TURN LEFT AND RIGHT - LEFT AND RIGHT<br>STRAFE LEFT AND RIGHT - A AND D<br>FIRE - CONTROL OR CLICK<br>USE - SPACE<br>RUN - SHIFT<br>INVENTORY LEFT AND RIGHT - [ AND ]<br>INVENTORY USE - ENTER<br>JUMP - Q<br>CLICK AND DRAG TO TURN",
-                thumbsrc: "/mods/flashgames/img/doom.png",
+                href: "/page/c=[S] DOOM/m=assets%3A%2F%2Fmods%2Ftuhc-doom%2Fswf%2Fdoomtriplepack.swf/b=|CONTROLS|<br><br>FORWARD - W<br>BACKWARD - S<br>TURN LEFT AND RIGHT - LEFT AND RIGHT<br>STRAFE LEFT AND RIGHT - A AND D<br>FIRE - CONTROL OR CLICK<br>USE - SPACE<br>RUN - SHIFT<br>INVENTORY LEFT AND RIGHT - [ AND ]<br>INVENTORY USE - ENTER<br>JUMP - Q<br>CLICK AND DRAG TO TURN",
+                thumbsrc: "/mods/tuhc-doom/img/doom.png",
                 title: '[S] DOOM',
                 description: `Now there's a place <mark>more violent</mark> than Earth. Includes Doom, Heretic and Hexen.`
             })
